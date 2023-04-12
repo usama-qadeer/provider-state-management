@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
+      //this is single provider.
       create: (context) => CountProvider(),
       child: MaterialApp(
         title: 'Provider State Management',
